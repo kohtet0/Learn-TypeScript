@@ -5,6 +5,7 @@ import ContactUsPage from "./pages/ContactUs.page";
 import Button from "./components/Button";
 import Input from "./components/Input";
 import AuthPage from "./pages/Auth.page";
+import CountPage from "./pages/Count.page";
 
 function App() {
   // const parents = {
@@ -50,7 +51,8 @@ function App() {
 
       {/* <Button style={{ backgroundColor: "red", color: "white" }} /> */}
 
-      <AuthPage />
+      {/* <AuthPage /> */}
+      <CountPage />
     </div>
   );
 }
