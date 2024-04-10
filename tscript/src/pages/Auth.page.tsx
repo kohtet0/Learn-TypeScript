@@ -8,7 +8,8 @@ const AuthPage = (props: Props) => {
     age: number;
   };
 
-  const [user, setUser] = useState<userType | null>(null);
+  // const [user, setUser] = useState<userType | null>(null);
+  const [user, setUser] = useState({} as userType);
 
   const userLogin = () => {
     setUser({
@@ -18,7 +19,8 @@ const AuthPage = (props: Props) => {
   };
 
   const userLogout = () => {
-    setUser(null);
+    // setUser(null);
+    setUser({} as userType);
   };
 
   return (
