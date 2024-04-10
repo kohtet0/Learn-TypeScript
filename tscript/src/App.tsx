@@ -4,6 +4,7 @@ import AboutPage from "./pages/About.page";
 import ContactUsPage from "./pages/ContactUs.page";
 import Button from "./components/Button";
 import Input from "./components/Input";
+import AuthPage from "./pages/Auth.page";
 
 function App() {
   // const parents = {
@@ -45,7 +46,11 @@ function App() {
 
       {/* <Button handleClick={handleClick} /> */}
 
-      <Input value="" onChangeHandler={(e) => console.log(e.target.value)} />
+      {/* <Input value="" onChangeHandler={(e) => console.log(e.target.value)} /> */}
+
+      {/* <Button style={{ backgroundColor: "red", color: "white" }} /> */}
+
+      <AuthPage />
     </div>
   );
 }

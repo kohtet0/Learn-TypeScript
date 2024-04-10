@@ -1,6 +1,7 @@
 # Learn-TypeScript
 
 - Props and types
+
   - string
   - number
   - boolean
@@ -11,3 +12,6 @@
   - optional type (exp - ?)
   - passing child string
   - passing component as child (React.ReactNode)
+
+- const name = 'Mg Mg' => implicitly => auto
+- const name: string = 'Mg Mg' => explicitly => manual
